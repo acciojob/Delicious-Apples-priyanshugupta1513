@@ -1,1 +1,171 @@
 /* your code here */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #10E37F;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.product {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 70%;
+	width: 70%;
+	background-color: white;
+	border-radius: 8px;
+}
+
+.product__photo {
+	background-color: white;
+	max-width: 40%;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+	
+	position: relative;
+	left: -40px;
+}
+.photo-container {
+	width: 100%;
+	margin-bottom: 30px;
+	border-radius: 10px;
+	
+}
+
+.photo-main{
+	background-color: #B6E940;
+}
+.photo-main img{
+	position: relative;
+	left: -80px;
+}
+.controls {
+	display: flex;
+	justify-content: space-between;
+	/* background-color: red; */
+	padding: 15px;
+}
+
+.photo-album {
+	max-width: 100%;
+}
+
+.photo-album ul {
+	margin-top: 10px;
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	padding-left: 15%;
+	list-style-type: none;
+}
+
+.photo-album ul li img {
+	width: 90%;
+	height: 80%;
+	object-fit: cover;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+}
+
+.product__info{
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	/* align-items: center; */
+	width: 60%;
+	height: 60% ;
+	/* background-color: gray; */
+	padding: 20px
+}
+
+.title{
+	/* background-color: red; */
+	height: 15%;
+}
+
+.title h1 {
+	margin-bottom: 5px;
+}
+.title span{
+	color: gray;
+}
+
+.price {
+	margin: 5% 0;
+	/* background-color: red; */
+	height: 60px;
+	color: red;
+	font-size: 20px;
+}
+.price span{
+	/* width: 100%; */
+	font-size: 50px;
+	padding-left: 10px;
+}
+
+.variant{
+	/* display: flex;
+	flex-direction: column; */
+	/* background-color: red; */
+}
+.variant h3{
+	color: gray;
+}
+
+.variant ul{
+	/* background-color: green; */
+	margin-top: 10px;
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+	height: 40px;
+	/* gap: 3px; */
+}
+.variant ul li img{
+	width: 90%;
+	height: 100%;
+	object-fit: cover;
+	
+	border-radius: 5px;
+	margin:5px;
+}
+
+.description{
+	/* background-color: orange; */
+	width: 100%;
+	margin-top: 20px;
+}
+.description h3{
+	color: gray;
+}
+.description ul{
+	margin-left: 18%;
+	/* line-height:5px; */
+}
+.description ul li{
+	margin: 1% 0;
+}
+.description button{
+	height: 40%;
+	width: 45%;
+	background-color: red;
+	color: white;
+	border: none;
+	border-radius:8px;
+	margin-top: 15px;
+	box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+
+
